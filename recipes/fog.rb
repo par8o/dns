@@ -10,6 +10,6 @@ end
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
 chef_gem "fog" do
-  version '1.10.1'
+  version node[:dns][:fog_version]
   action :install
 end

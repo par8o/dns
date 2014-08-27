@@ -6,3 +6,4 @@ default[:dns][:entry][:name] = node[:fqdn]
 default[:dns][:entry][:type] = 'A'
 default[:dns][:entry][:value] = node[:ipaddress]
 default[:dns][:chef_client_config] = false
+default[:dns][:fog_version] = '1.10.1'
